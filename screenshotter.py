@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 
 
-current_date = time.strftime('%d-%m-%Y')
+current_date = time.strftime('%Y-%m-%d')
 os.makedirs(current_date)
 
 
